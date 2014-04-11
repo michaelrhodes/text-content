@@ -1,0 +1,43 @@
+{
+  "name": "text-content",
+  "version": "0.0.0",
+  "description": "A cross-browser function for getting and setting the text value of a DOM element.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tape test/*"
+  },
+  "testling": {
+    "files": "test/*.js",
+    "browsers": [
+      "ie/6..latest",
+      "chrome/22..latest",
+      "firefox/16..latest",
+      "safari/latest",
+      "opera/11.0..latest",
+      "iphone/6",
+      "ipad/6",
+      "android-browser/latest"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:michaelrhodes/text-content.git"
+  },
+  "keywords": [
+    "textContent",
+    "innerText"
+  ],
+  "author": "Michael Rhodes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michaelrhodes/text-content/issues"
+  },
+  "homepage": "https://github.com/michaelrhodes/text-content",
+  "devDependencies": {
+    "tape": "~2.12.3",
+    "mkdom": "~0.1.3"
+  }
+}
