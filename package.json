@@ -38,6 +38,6 @@
   "homepage": "https://github.com/michaelrhodes/text-content",
   "devDependencies": {
     "tape": "~2.12.3",
-    "mkdom": "~0.1.3"
+    "mkdom": "~0.1.4"
   }
 }
