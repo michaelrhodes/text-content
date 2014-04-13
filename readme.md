@@ -12,17 +12,15 @@ npm install text-content
 
 ### Example
 ``` js
-var mkdom = require('mkdom')
 var text = require('text-content')
 
-// You can just use document.createElement if
-// you’re not sharing rendering logic.
-var span = mkdom('<span>')
-
+var span = document.createElement('span')
 text(span, 'Some text')
+
 console.log(text(span))
 // => Some text
 ```
+It can also be used on the server with [mkdom](https://github.com/michaelrhodes/mkdom).
 
 ### License
 [MIT](http://opensource.org/licenses/MIT)

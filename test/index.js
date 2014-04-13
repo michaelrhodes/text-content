@@ -1,8 +1,7 @@
 var run = require('tape')
-var mkdom = require('mkdom')
 var text = require('../')
 
-var span = mkdom('<span>')
+var span = document.createElement('span')
 var value = 'npm.im/text-content'
 
 run('it works', function(test) {

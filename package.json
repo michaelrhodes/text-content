@@ -1,6 +1,6 @@
 {
   "name": "text-content",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A cross-browser function for getting and setting the text value of a DOM element.",
   "main": "index.js",
   "directories": {
@@ -37,7 +37,6 @@
   },
   "homepage": "https://github.com/michaelrhodes/text-content",
   "devDependencies": {
-    "tape": "~2.12.3",
-    "mkdom": "~0.1.4"
+    "tape": "~2.12.3"
   }
 }
