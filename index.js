@@ -1,5 +1,5 @@
 module.exports = function(node, value) {
-  var text = (node.textContent ?
+  var text = (node.textContent !== undefined ?
     'textContent' : 'innerText'
   )
 
