@@ -1,6 +1,6 @@
 {
   "name": "text-content",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A cross-browser function for getting and setting the text value of a DOM element.",
   "main": "index.js",
   "directories": {
