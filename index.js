@@ -3,7 +3,7 @@ module.exports = function(node, value) {
     'textContent' : 'innerText'
   )
 
-  if (value) {
+  if (typeof value != 'undefined') {
     node[text] = value
   }
 
